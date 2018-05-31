@@ -11,6 +11,6 @@ cron { 'run-puppet':
 }
 
 file { '/tmp/puppet_test.txt' :
-	ensure => file,
-	content => 'hello, world!',
+  ensure  => file,
+  content => 'hello, world!',
 }
